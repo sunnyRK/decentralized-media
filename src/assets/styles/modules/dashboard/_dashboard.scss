@@ -1,0 +1,13 @@
+.dashboard {
+  padding: 30px;
+  display: flex;
+  flex: 7;
+  .content-section {
+    flex: 5;
+    margin-right: 40px;
+  }
+  .info-section {
+    flex: 2;
+    overflow: hidden;
+  }
+}

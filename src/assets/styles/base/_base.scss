@@ -1,0 +1,33 @@
+body {
+  background-color: #f9fbfd;
+  #__next {
+    height: 100%;
+  }
+}
+
+.card {
+  border-color: #edf2f9;
+  box-shadow: 0 0.75rem 1.5rem rgba(18,38,63,.03);
+  border: 1px solid #edf2f9;
+  background-color: #fff;
+  border-radius: .5rem;
+  padding: 20px;
+  margin: 0 0 20px 0;
+  .heading {
+    color: #2d507d !important;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+}
+
+.button {
+  width: 180px;
+  height: 45px;
+  background-color: $app-color !important;
+  color: #ffffff !important;
+}
+
+.full-screen {
+  height: 100%;
+  width: 100%;
+}

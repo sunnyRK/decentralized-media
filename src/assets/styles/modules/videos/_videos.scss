@@ -1,0 +1,64 @@
+.videos {
+  .videos-header {
+    display: flex;
+    justify-content: space-between;
+    .upload-btn {
+      background-color: $app-color;
+      color: #ffffff;
+    }
+  }
+  .videos-content {
+    padding: 10px 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 265px;
+    .no-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+    .video-wrapper {
+      margin: 20px 0 0 20px;
+      .video-player {
+        height: 200px;
+        width: 355px;
+      }
+      .video-details {
+        display: flex;
+        justify-content: space-between;
+        color: #fff;
+        .file-name {
+          color: #000000;
+          padding: 4px;
+          font-size: 1.3rem;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          font-weight: 500;
+          margin-top: 4px;
+          max-width: 235px;
+        }
+        .storage-details {
+          display: flex;
+          .ipfs-label {
+            background-color: #449294;
+            border-radius: 5px;
+            padding: 4px;
+            margin-left: 8px;
+            display: flex;
+            align-items: center;
+          }
+          .filecoin-label {
+            background-color: #0090ff;
+            margin-left: 8px;
+            padding: 4px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+          }
+        }
+      }
+    }
+  }
+}

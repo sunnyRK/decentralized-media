@@ -1,0 +1,42 @@
+.info {
+  .account-details {
+    .details-content {
+      margin-top: 10px;
+      .address {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-weight: 500;
+        margin-top: 4px;
+      }
+    }
+  }
+  .add-file {
+    margin: 0 0 20px 0;
+    .add-file-wrapper {
+      border-color: #edf2f9;
+      box-shadow: 0 0.75rem 1.5rem rgba(18,38,63,.03);
+      border: 1px solid #edf2f9;
+      background-color: #fff;
+      border-radius: .5rem;
+      padding: 20px;
+      margin: 0 0 20px 0;
+      max-width: unset;
+      .add-file-label {
+        padding: 6px 24px 6px 24px;
+        min-height: 40px;
+        border-radius: 4px;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        color: #ffffff;  
+        background-color: #1b1f23;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

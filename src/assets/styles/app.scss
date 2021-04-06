@@ -1,0 +1,11 @@
+@import './variables';
+
+@import './modules/modules';
+
+@import './base/base';
+@import './base/forms';
+@import './base/react-toastify';
+@import './base/dialog';
+
+@import '~video-react/styles/scss/video-react';
+@import "~video-react/dist/video-react.css";

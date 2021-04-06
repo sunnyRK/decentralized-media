@@ -1,0 +1,33 @@
+.main-template {
+  height: 100%;
+  .main-header {
+    width: 100%;
+    height: $header-height;
+    background-color: $app-color;
+    position: sticky;
+    top: 0;
+    z-index: 9000;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    .app-name {
+      font-size: 1.4rem;
+      font-weight: 500;
+      color: white;
+      display: flex;
+      align-items: center;
+      letter-spacing: 1.2px;
+    }
+  }
+  .main-content {
+    height: calc(100% - #{$header-height});
+    overflow: auto;
+  }
+  .main-footer {
+    .app-footer {
+      padding: 4em !important;
+      margin-top: 30px !important;
+      background-color: $app-color;
+    }
+  }
+}
