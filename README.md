@@ -9,7 +9,7 @@ Decentralized-Media is hosted on fleek.co hosting service.
 
 ## Video Demo
 
-[![Protocol](protocol2.png)]
+[![Protocol](protocol2.png)]()
 
 ## Screenhots
 
