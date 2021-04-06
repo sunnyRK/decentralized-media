@@ -6,9 +6,6 @@ Decentralized-Media will retrieve only uploaded videos by login users. And give 
 Even, The platform storing the video file details on ethereum blockchain.  
 Decentralized-Media is hosted on fleek.co hosting service.
 
-
-## Video Demo
-
 [![Protocol](protocol2.png)]()
 
 ## Screenhots
