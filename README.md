@@ -1,20 +1,20 @@
-# SkyStorage - (Filecoin)
+# Decentralized-Media - (Filecoin & IPFS & PowerGate)
 
-SkyStorage is a decentralized video player. Where user can upload video on web3 platforms like Filecoin and IPFS.   
+Decentralized-Media is a decentralized video player. Where user can upload video on web3 platforms like Filecoin and IPFS.   
 Platform will give ability to users for change the storage config of individual video file(like change in, hot and cold storage).    
-Skystorage will retrieve only uploaded videos by login users. And give accessibilty on this video files as a video player on the platform.  
+Decentralized-Media will retrieve only uploaded videos by login users. And give accessibilty on this video files as a video player on the platform.  
 Even, The platform storing the video file details on ethereum blockchain.  
-SkyStorage is hosted on fleek.co hosting service.
+Decentralized-Media is hosted on fleek.co hosting service.
 
 
 ## Video Demo
 
     https://youtu.be/BAJufquxMS4
-[![HackFS](HackFS2.png)](https://youtu.be/BAJufquxMS4 "SkyStorage")
+[![Protocol](protocol2.png)](https://youtu.be/BAJufquxMS4 "Decentralized-Media")
 
 ## Screenhots
 
-### 1. SkyStorage Landing Page with register 
+### 1. Decentralized-Media Landing Page with register 
 ![Screenshot](screenshots/screenshot1.png)
 
 ### 2. Use will register here
@@ -52,15 +52,11 @@ SkyStorage is hosted on fleek.co hosting service.
 3). `BIGSECTORS=true make localnet`  
 
 - Run Dapp on localhost  
-1). clone repo `https://github.com/sunnyRK/SkyStorage.git`  
-2). `cd SkyStorage`  
+1). clone repo `https://github.com/sunnyRK/Decentralized-Media.git`  
+2). `cd Decentralized-Media`  
 3). Install dependencies for dapp `npm install`   
 4).Run Dapp `node server.js`  
 5). Go to `http://localhost:8000`    
-
-## Presentation
-    https://docs.google.com/presentation/d/1aCKVuKYpBhNw1Ah-g9vnWXThxId7SiiUubndd2emFhA/edit?usp=sharing
-
 
 ## Tech Stack We are using
 
@@ -74,6 +70,3 @@ SkyStorage is hosted on fleek.co hosting service.
 
 `radadiyasunny970@gmail.com`  
 [Twitter](https://twitter.com/RadadiyaSunny)
-
-`rajatbeladiya7@gmail.com`  
-[Twitter](https://twitter.com/rajat_beladiya)
